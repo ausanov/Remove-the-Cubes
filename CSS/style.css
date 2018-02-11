@@ -1,0 +1,72 @@
+body {
+  background-image: url('bg-image/paper.png');
+}
+
+nav {
+  height: 150px;
+}
+
+.title {
+  color: lightblue;
+  font-family: Verdana;
+  font-size: 20pt;
+  padding-left: 20px;
+}
+
+li {
+  font-family: Verdana;
+  padding-right: 20px;
+  padding-top:  80px;
+}
+
+.points {
+  font-family: Verdana;
+  font-size: 16pt;
+  padding-left: 320px;
+  padding-top:  75px;
+}
+
+ .time {
+   font-family: Verdana;
+   font-size: 16pt;
+   padding-left: 150px;
+   padding-top:  75px;
+ }
+
+ .sum_points, .minute {
+   font-family: Verdana;
+   font-size: 16pt;
+   padding-top:  75px;
+ }
+
+ .square {
+   background-image: url('bg-image/wg.png');
+   border: 2px solid black;
+   min-height: 450px;
+   margin-left: 120px;
+   margin-top: 40px;
+   opacity: 0.5;
+   overflow: hidden;
+   position: relative;
+   width: 85%;
+ }
+
+ h5, label, #pts {
+   padding-left: 10px;
+ }
+
+.cube {
+  border: 1px solid black;
+  cursor: pointer;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.half-cube {
+  border: 1px solid black;
+  cursor: pointer;
+  height: 15px;
+  position: absolute;
+  width: 15px;
+}
