@@ -31,7 +31,7 @@ function setCube() {
 
     for(var i = 0; i < count; i++) {
       top = Math.floor(Math.random() * ($(".square").height() - 120) + 20);
-      right = Math.floor(Math.random() * ($(".square").width() - 220) + 20);
+      right = Math.floor(Math.random() * ($(".square").width() - 110) + 20);
       var flag = Math.round(Math.random() * 1);
       if(flag == 1) $("<div>").addClass('cube').css({"top": top, "right": right, "background-color": color}).appendTo(".square");
       else $("<div>").addClass('half-cube').css({"top": top, "right": right, "background-color": color}).appendTo(".square");
