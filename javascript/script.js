@@ -43,7 +43,7 @@ $(document).ready(function() {
   $(".start").on('click', function () {
 
     if($(".start").hasClass("start")) {
-      points = 0;
+      //points = 0;
       sec = time % 60;
       min = (time - sec) / 60;
       if(sec == '0'|| sec < 10) sec = '0' + sec;
@@ -71,6 +71,8 @@ $(document).ready(function() {
           $('#btn-start').addClass('start').html('Start');
           $("#pts").html('You scored: ' + points + ' points!');
           $("#add-record").modal('show');
+          
+          points = 0;
         }
       },1000);
     }else{
