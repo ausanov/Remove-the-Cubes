@@ -71,8 +71,6 @@ $(document).ready(function() {
           $('#btn-start').addClass('start').html('Start');
           $("#pts").html('You scored: ' + points + ' points!');
           $("#add-record").modal('show');
-          
-          points = 0;
         }
       },1000);
     }else{
@@ -85,6 +83,7 @@ $(document).ready(function() {
     current_obj = [$('#name').val(), points];
     toTable(current_obj);
     $('#btn-start').addClass('start').html('Start');
+    points = 0;
   });
 
   $(".new-game").on('click', function () {
